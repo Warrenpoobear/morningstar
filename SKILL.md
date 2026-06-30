@@ -7,6 +7,7 @@ allowed-tools:
   - Bash(ls *)
   - Bash(git *)
   - Bash(cp *)
+  - Bash(cd *)
 ---
 
 # Morningstar Benchmark Data
@@ -62,14 +63,20 @@ SEC_ID_MAP = {
 
 ---
 
-## Step 1 — Check freshness
+## Steps
+
+### 1 — Check freshness
 
 ```bash
 python3 - <<'EOF'
-import pandas as pd
+import os, sys, pandas as pd
 from datetime import date
 
 f = "/mnt/c/Projects/morningstar/benchmark_daily_ret_pct_10yr.csv"
+if not os.path.exists(f):
+    print(f"ERROR: data file not found at {f} — run Step 2 to do initial pull")
+    sys.exit(1)
+
 df = pd.read_csv(f, parse_dates=["Date"])
 latest = df["Date"].max().date()
 age = (date.today() - latest).days
@@ -88,24 +95,26 @@ If `FRESH` and the user only asked for a status check, stop here and report.
 
 ---
 
-## Step 2 — Refresh (when stale or explicitly requested)
+### 2 — Refresh (when stale or explicitly requested)
 
-**Requires MD_AUTH_TOKEN.** If not set, ask the user to run:
+**Requires MD_AUTH_TOKEN.** `! export MD_AUTH_TOKEN=...` does NOT propagate to the Bash tool's subprocess — the token must be hardcoded directly into the script below. Ask the user to paste it in:
+
 ```
-! export MD_AUTH_TOKEN="<token-from-morningstar-direct>"
+Get a fresh token from Morningstar Direct → Account → API Token
+Then paste it as the TOKEN value in the script below.
 ```
-Token expires ~24h. Source from Morningstar Direct → Account → API Token.
 
 ```bash
 python3 - <<'EOF'
 import os, sys, pandas as pd
 from datetime import date
 
-# Token must be set by caller before running this skill
-token = os.environ.get("MD_AUTH_TOKEN", "")
-if not token:
-    print("ERROR: MD_AUTH_TOKEN not set. Ask user to export it first.")
+# Paste token directly — env export does not propagate to subprocess
+TOKEN = "<paste-token-here>"
+if TOKEN == "<paste-token-here>" or not TOKEN:
+    print("ERROR: TOKEN not set. Paste a fresh MD_AUTH_TOKEN into the script.")
     sys.exit(1)
+os.environ["MD_AUTH_TOKEN"] = TOKEN
 
 import morningstar_data as md
 from morningstar_data.direct.data_type import Frequency
@@ -147,13 +156,17 @@ id_to_label = {v: k for k, v in SEC_ID_MAP.items()}
 today = date.today().isoformat()
 
 print(f"Pulling daily returns 2016-07-01 → {today}...")
-df = md.direct.get_returns(
-    investments=ids,
-    start_date="2016-07-01",
-    end_date=today,
-    freq=Frequency.daily,
-    currency="USD",
-)
+try:
+    df = md.direct.get_returns(
+        investments=ids,
+        start_date="2016-07-01",
+        end_date=today,
+        freq=Frequency.daily,
+        currency="USD",
+    )
+except Exception as e:
+    print(f"MD API error: {e}")
+    sys.exit(1)
 
 df["Benchmark"] = df["Id"].map(id_to_label)
 df = df.sort_values(["Id", "Date"]).reset_index(drop=True)
@@ -171,7 +184,7 @@ EOF
 
 ---
 
-## Step 3 — Copy to repo and commit
+### 3 — Copy to repo and commit
 
 ```bash
 REPO="/mnt/c/Projects/morningstar"
@@ -186,7 +199,7 @@ git commit -m "Refresh benchmark data through $(date +%Y-%m-%d)"
 git push
 ```
 
-If the copy fails with `Permission denied`, the files are open in Windows (Excel). Either close them first or write to new filenames and rename after closing.
+If `cp` fails with `Permission denied`, the files are open in Windows (Excel). Close them first, then retry. Alternatively write to new filenames and rename after closing.
 
 ---
 
@@ -201,19 +214,39 @@ Benchmarks: 29
 Rows:       ~105,900 (10yr window)
 
 [If refreshed]
-  Pulled:   YYYY-MM-DD HH:MM
+  Pulled:    YYYY-MM-DD HH:MM
   Committed: <git sha>
-  Pushed:   github.com/Warrenpoobear/morningstar
+  Pushed:    github.com/Warrenpoobear/morningstar
 
 [If token needed]
   MD_AUTH_TOKEN expired or not set.
-  Get a fresh token from Morningstar Direct → Account → API Token
-  Then: ! export MD_AUTH_TOKEN="<token>"
+  Get a fresh token: Morningstar Direct → Account → API Token
+  Paste into TOKEN = "..." in Step 2 script.
+
+STATUS: FRESH ✓ / ⚠️ STALE (Nd) — refresh needed / 🚨 TOKEN_EXPIRED — get new MD_AUTH_TOKEN
 ```
 
 ## Notes
 
 - **Token TTL:** ~24h. Token in conversation history should not be re-used across sessions — always source fresh.
+- **Token propagation:** `! export MD_AUTH_TOKEN=...` does not reach the Bash tool subprocess. Always hardcode into the script via `os.environ["MD_AUTH_TOKEN"] = TOKEN`.
 - **Weekend/holiday rows:** `daily_ret_pct = 0` (index repeats). Filter with a trading-day calendar before use.
 - **Newer indices:** Russell Magnificent 7 and Roundhill MAGS ETF have shorter history; expect NaN before inception.
 - **Remote:** `github.com/Warrenpoobear/morningstar` (private)
+
+## Session-end learning
+
+After completing this skill's task, if you encountered an unexpected behavior, constraint, API response, or workflow edge case, log it:
+
+```
+[LRN-YYYYMMDD-NNN]
+Pattern-Key: SKILL_MORNINGSTAR_BENCHMARK_{description}
+Area: hermes_ops | data_pipeline | research | portfolio
+Promotion-lane: skill | none
+Recurrence-Count: 1
+Context: <one line — what happened>
+Rule: <one line — what to do differently>
+Suggested-Action: <patch to this SKILL.md, or none>
+```
+
+Recurrence ≥ 3 in 7 days → propose a patch to this `SKILL.md`. Full protocol: see `self-improving` skill.
