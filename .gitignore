@@ -1,0 +1,7 @@
+# Don't commit auth tokens
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
