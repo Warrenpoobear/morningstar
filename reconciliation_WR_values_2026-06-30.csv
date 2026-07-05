@@ -1,0 +1,185 @@
+Ticker,My Security,My Sleeve,My MV (USD),WR Security,WR Value (USD),WR-My (USD),My wt % (of 156.7M),WR wt % (of 714.8M),status
+AKRE,Akre Focus Instl,US Large Cap,4616238,Akre Focus Fund (instl),0.0,-4616238.0,2.95,0.000,mine>WR
+APDTX,Artisan Focus Fund Advisor,US Large Cap,6931461,Artisan Focused Fund (advisor CL),6666904.959600002,-264556.0403999984,4.42,0.933,mine>WR
+MDFGX,BlackRock Capital Appreciation Inv A,US Large Cap,8202,BlackRock Capital (appreciation Invt A),8385.04908,183.04908000000069,0.01,0.001,OK
+CABDX,AB Relative Value A,US Large Cap,9928,Ab Relative Value (fund Class A),9873.72108,-54.27892000000065,0.01,0.001,OK
+DGRO,iShares Core Dividend Growth ETF,US Large Cap,805419,iShares Trust Core (divid GWTH),1003216.4656799999,197797.4656799999,0.51,0.140,WR>mine
+SPYGX,Spyglass Growth Institutional,US Small / Mid Cap,3115012,Spyglass Growth Fund (instl),2931725.8220400005,-183286.17795999954,1.99,0.410,mine>WR
+CISMX,Clarkston Partners Institutional,US Small / Mid Cap,89538,Clarkston Partners (fund CL I),84519.95181000001,-5018.048189999987,0.06,0.012,mine>WR
+LAVLX,Lord Abbett Mid Cap Stock A,US Small / Mid Cap,5598,Lord Abbett Mid Cap (stock Class A),5638.94182,40.94182000000001,0.00,0.001,OK
+SMMD,iShares Russell 2500 ETF,US Small / Mid Cap,337627,iShares Trust (russell 2500 Usd Etf),340826.21495999995,3199.214959999954,0.22,0.048,OK
+SSCVX,Columbia Select Small Cap Value A,US Small / Mid Cap,5178,Columbia Select (small Cap Value A),5210.12442,32.1244200000001,0.00,0.001,OK
+BGCG,Baillie Gifford Intl Concntr Gr Instl,Developed Intl / Global,1140084,Baillie Gifford ETF TR Intl Concntr GRW,1134965.8683,-5118.131700000027,0.73,0.159,OK
+JOHIX,JOHCM International Select Instl,Developed Intl / Global,4162494,Johcm International (select Instl),4155425.0024199993,-7068.997580000665,2.66,0.581,OK
+IXUS,iShares Core MSCI Total Intl Stk ETF,Developed Intl / Global,663202,iShares TR Core MSCI (total),668243.2023999998,5041.202399999835,0.42,0.093,OK
+KGGIX,Kopernik Global All-Cap I,Developed Intl / Global,2437546,Kopernik Global All (cap Fund Instl),2250616.371800001,-186929.62819999922,1.56,0.315,mine>WR
+VXUS,Vanguard Total International Stock ETF,Developed Intl / Global,591431,Vanguard Total (international Stock Index Fund),491216.1360999999,-100214.86390000011,0.38,0.069,mine>WR
+APDYX,Artisan Developing World Advisor,Emerging Markets,1592160,Artisan Developing (world FD Advisor CL),1552793.97482,-39366.02518000011,1.02,0.217,mine>WR
+LZEMX,Lazard Emerging Markets Equity Instl,Emerging Markets,2873003,Lazard Emerging MKTS (equity Institutional),2877697.1350399996,4694.135039999615,1.83,0.403,OK
+URA,Global X Uranium ETF,Regional / Sector Equity,46239,,,,0.03,,not-matched
+SGOL,abrdn Physical Gold Shares ETF,Commodities,509050,,,,0.32,,not-matched
+IAU,iShares Gold Trust,Commodities,38755,iShares Gold TR (ishares New Isin #us4642852044 Sedol #BKP74N6),37755.0,-1000.0,0.02,0.005,mine>WR
+GLD,SPDR Gold Shares,Commodities,37813,SPDR Gold TR Gold (SHS),36838.0,-975.0,0.02,0.005,mine>WR
+BITB,Bitwise Bitcoin ETF,Digital Assets,251558,Bitwise Bitcoin ETF (TR SHS Ben Int),240318.61001999996,-11239.389980000036,0.16,0.034,mine>WR
+GBTC,Grayscale Bitcoin Trust ETF,Digital Assets,399406,Grayscale Bitcoin (mini TR ETF SHS New),46326.6666,-353079.3334,0.25,0.006,mine>WR
+ETHE,Grayscale Ethereum Trust ETF,Digital Assets,53705,Grayscale Ethereum (trust Etf),49837.956959999996,-3867.043040000004,0.03,0.007,mine>WR
+ETH,Grayscale Ethereum Mini Trust ETF,Digital Assets,22490,Grayscale Ethereum (mini TR ETF SHS New),20891.699999999997,-1598.300000000003,0.01,0.003,mine>WR
+BTC,Grayscale Bitcoin Mini Trust ETF,Digital Assets,48522,Grayscale Bitcoin (mini TR ETF SHS New),46326.6666,-2195.333400000003,0.03,0.006,mine>WR
+MSFT,Microsoft Corp,Direct Equity,3505556,Microsoft Corp,3348722.1072179996,-156833.89278200036,2.24,0.468,mine>WR
+AAPL,Apple Inc,Direct Equity,2880325,Apple Inc,2700485.7657600003,-179839.23423999967,1.84,0.378,mine>WR
+NVDA,NVIDIA Corp,Direct Equity,2610122,Nvidia Corporation,2680589.7027910003,70467.70279100025,1.67,0.375,WR>mine
+AMZN,Amazon.com Inc,Direct Equity,2227783,Amazon.Com Inc,2188032.22532,-39750.7746799998,1.42,0.306,mine>WR
+MU,Micron Technology Inc,Direct Equity,2196881,Micron Technology,2599366.4282199997,402485.42821999965,1.40,0.364,WR>mine
+GOOGL,Alphabet Inc Class A,Direct Equity,1567557,Alphabet Inc Cap STK,1556493.9438099999,-11063.056190000148,1.00,0.218,OK
+GOOG,Alphabet Inc Class C,Direct Equity,1184661,Alphabet Inc Cap STK,1175182.29327,-9478.706729999976,0.76,0.164,OK
+JPM,JPMorgan Chase & Co,Direct Equity,1121613,JPMorgan Chase &co.,1097670.05865,-23942.94134999998,0.72,0.154,mine>WR
+AOMR,Angel Oak Mortgage REIT Inc,Direct Equity,971805,Angel Oak Mortgage,976104.8850399997,4299.885039999732,0.62,0.137,OK
+TSLA,Tesla Inc,Direct Equity,740409,Tesla RG,791501.0628000001,51092.06280000007,0.47,0.111,WR>mine
+HGTY,Hagerty Inc Class A,Direct Equity,619500,Hagerty Inc CL A Com,596000.0,-23500.0,0.40,0.083,mine>WR
+MITTPRA,TPG Mortgage Inv Trust 8.25% Ser A Pfd,Direct Equity,585970,,,,0.37,,not-matched
+DAL,Delta Air Lines Inc,Direct Equity,556500,Delta Air Lines Inc,561960.0,5460.0,0.36,0.079,OK
+NFLX,Netflix Inc,Direct Equity,474937,Netflix Inc,436709.532,-38227.46799999999,0.30,0.061,mine>WR
+META,Meta Platforms Inc Class A,Direct Equity,439468,Meta Platforms Inc,424683.48286,-14784.51714000001,0.28,0.059,mine>WR
+BX,Blackstone Inc,Direct Equity,407834,,,,0.26,,not-matched
+JNJ,Johnson & Johnson,Direct Equity,389075,Johnson &johnson Com,375658.70962,-13416.29038000002,0.25,0.053,mine>WR
+CSCO,Cisco Systems Inc,Direct Equity,387090,Cisco Systems Inc,403475.1,16385.099999999977,0.25,0.056,WR>mine
+GS,The Goldman Sachs Group Inc,Direct Equity,338855,Goldman Sachs Group,335658.53245,-3196.467550000001,0.22,0.047,OK
+DIS,The Walt Disney Co,Direct Equity,334736,Disney Walt Co Com,326325.654,-8410.34600000002,0.21,0.046,mine>WR
+BRKB,Berkshire Hathaway Inc Class B,Direct Equity,333224,Berkshire Hathaway,328374.4324300001,-4849.567569999897,0.21,0.046,mine>WR
+C,Citigroup Inc,Direct Equity,318128,Citigroup Inc,318105.70668,-22.29331999999704,0.20,0.045,OK
+XOM,Exxon Mobil Corp,Direct Equity,305558,Exxon Mobil Corp Com,304733.43064,-824.5693600000232,0.19,0.043,OK
+FWONA,Liberty Media Corp A,Direct Equity,295393,Liberty Media Corp,284505.0,-10888.0,0.19,0.040,mine>WR
+SCHD,Schwab US Dividend Equity ETF,Direct Equity,264479,Schwab US Dividend (equity Etf),256952.85252,-7526.147480000014,0.17,0.036,mine>WR
+BATRK,Atlanta Braves Holdings Inc Class C,Direct Equity,263850,Atlanta Braves HLDGS,259499.99999999997,-4350.000000000029,0.17,0.036,mine>WR
+ORCL,Oracle Corp,Direct Equity,258458,Oracle Corp,270028.9266,11570.926600000006,0.16,0.038,WR>mine
+BLK,BlackRock Inc,Direct Equity,258051,BlackRock Inc Com,249195.96648,-8855.033519999997,0.16,0.035,mine>WR
+WMT,Walmart Inc,Direct Equity,209700,WalMart RG,212362.5,2662.5,0.13,0.030,WR>mine
+COIN,Coinbase Global Inc Class A,Direct Equity,198576,Coinbase Global Inc,175427.99999999997,-23148.00000000003,0.13,0.025,mine>WR
+DASH,DoorDash Inc Class A,Direct Equity,163963,Doordash Inc CL A,157575.7029,-6387.297099999996,0.10,0.022,mine>WR
+CPT,Camden Property Trust,Direct Equity,158257,Camden Property,155961.9948,-2295.005200000014,0.10,0.022,mine>WR
+CRWD,CrowdStrike Holdings Inc Class A,Direct Equity,155184,Crowdstrike HLDGS,152628.0,-2556.0,0.10,0.021,mine>WR
+BAC,Bank of America Corp,Direct Equity,147767,Bank America Corp,143363.61732,-4403.38268000001,0.09,0.020,mine>WR
+EXE,Expand Energy Corp,Direct Equity,144170,Expand Energy,144917.14182,747.1418199999898,0.09,0.020,OK
+TTWO,Take-Two Interactive Software Inc,Direct Equity,140041,Take-Two Interactive,137289.76594,-2751.234059999988,0.09,0.019,mine>WR
+SBUX,Starbucks Corp,Direct Equity,136367,Starbucks Corp Com,133646.63675,-2720.363249999995,0.09,0.019,mine>WR
+ASML,ASML Holding NV ADR,Direct Equity,134169,Asml Holding NV,150861.22464,16692.22464,0.09,0.021,WR>mine
+TFC,Truist Financial Corp,Direct Equity,131618,,,,0.08,,not-matched
+LLY,Eli Lilly & Co,Direct Equity,121852,Eli Lilly &co Com,120398.78340000001,-1453.2165999999852,0.08,0.017,mine>WR
+AVGO,Broadcom Inc,Direct Equity,121435,Broadcom Inc Com,127263.59724999999,5828.597249999992,0.08,0.018,WR>mine
+FNV,Franco-Nevada Corp,Direct Equity,110768,,,,0.07,,not-matched
+FHN,First Horizon Corp,Direct Equity,109232,First Horizon,109416.14252,184.14251999999397,0.07,0.015,OK
+ADI,Analog Devices Inc,Direct Equity,108312,Analog Devices Inc,114058.88342999999,5746.883429999987,0.07,0.016,WR>mine
+MA,Mastercard Inc Class A,Direct Equity,107878,Mastercard,102720.0,-5158.0,0.07,0.014,mine>WR
+ANET,Arista Networks Inc,Direct Equity,79995,Arista Networks Inc,84940.0,4945.0,0.05,0.012,WR>mine
+UBER,Uber Technologies Inc,Direct Equity,77046,Uber Technologies,74696.56832,-2349.4316799999942,0.05,0.010,mine>WR
+PLTR,Palantir Technologies Inc Cl A,Direct Equity,64650,Palantir,58335.0,-6315.0,0.04,0.008,mine>WR
+AFRM,Affirm Holdings Inc Class A,Direct Equity,63435,Affirm Holdings Inc,61162.5,-2272.5,0.04,0.009,mine>WR
+TECK,Teck Resources Ltd,Direct Equity,60171,Teck Resources LTD,59620.00686,-550.9931399999987,0.04,0.008,OK
+BIDU,Baidu Inc ADR,Direct Equity,58555,Baidu Inc Spon Ads,59066.67206,511.67205999999715,0.04,0.008,OK
+TOL,Toll Brothers Inc,Direct Equity,57192,Toll Brothers Inc,59961.58624999999,2769.586249999993,0.04,0.008,WR>mine
+TCEHY,Tencent Holdings Ltd ADR,Direct Equity,55350,Tencent Holdings,55220.0,-130.0,0.04,0.008,OK
+SLV,iShares Silver Trust,Direct Equity,55020,,,,0.04,,not-matched
+ET,Energy Transfer LP,Direct Equity,53682,Energy Transfer L P,53098.97416,-583.0258400000021,0.03,0.007,mine>WR
+FNDX,Schwab Fundamental US Large Co ETF,Direct Equity,52280,Schwab Fundamental (us Large Company Index Etf),49993.4366,-2286.563399999999,0.03,0.007,mine>WR
+VEON,Veon Ltd Spon ADS,Direct Equity,52000,Veon LTD Spon Ads,52210.0,210.0,0.03,0.007,OK
+SONY,Sony Group Corporation ADR,Direct Equity,51975,,,,0.03,,not-matched
+NVO,Novo Nordisk A/S ADR,Direct Equity,51613,Novo Nordisk A/S,49064.81621999999,-2548.1837800000067,0.03,0.007,mine>WR
+FER,Ferrovial N.V.,Direct Equity,51280,Ferrovial Se Eur0.01,51954.305010000004,674.3050100000037,0.03,0.007,WR>mine
+APO,Apollo Asset Management Class A,Direct Equity,50677,,,,0.03,,not-matched
+SPOT,Spotify Technology SA,Direct Equity,50289,Spotify Technology,47511.69066,-2777.30934,0.03,0.007,mine>WR
+BABA,Alibaba Group Holding Ltd ADR,Direct Equity,49542,Alibaba Group,50000.33524,458.33524000000034,0.03,0.007,OK
+MRVL,Marvell Technology Inc,Direct Equity,49058,,,,0.03,,not-matched
+KKR,KKR & Co Inc,Direct Equity,48987,KKR &co Inc Com,47911.9134,-1075.0866000000024,0.03,0.007,mine>WR
+ADBE,Adobe Inc,Direct Equity,43944,Adobe Inc Com,41004.0,-2940.0,0.03,0.006,mine>WR
+V,Visa Inc Class A,Direct Equity,41469,Visa Inc,39288.951349999996,-2180.0486500000043,0.03,0.005,mine>WR
+MCK,McKesson Corp,Direct Equity,39086,Mckesson Corp,37560.038,-1525.9619999999995,0.02,0.005,mine>WR
+AVAV,AeroVironment Inc,Direct Equity,38178,Aerovironment Inc,33014.0,-5164.0,0.02,0.005,mine>WR
+COPP,Sprott Copper Miners ETF,Direct Equity,37830,Sprott FDS TR Copper (miner Etf),38300.0,470.0,0.02,0.005,OK
+HPE,Hewlett Packard Enterprise Co,Direct Equity,36576,Hewlett Packard,40144.126285000006,3568.1262850000057,0.02,0.006,WR>mine
+SHEL,Shell PLC ADR,Direct Equity,36112,Shell PLC Spon Ads,35889.46654,-222.53345999999874,0.02,0.005,OK
+SYY,Sysco Corp,Direct Equity,30361,Sysco Corp,29913.365579999998,-447.63442000000214,0.02,0.004,OK
+UL,Unilever PLC ADR,Direct Equity,29779,Unilever PLC,28654.57476,-1124.4252400000005,0.02,0.004,mine>WR
+BSX,Boston Scientific Corp,Direct Equity,28920,Boston Scientific,27343.7956,-1576.2043999999987,0.02,0.004,mine>WR
+PEP,PepsiCo Inc,Direct Equity,28617,Pepsico Inc,26866.4742,-1750.5257999999994,0.02,0.004,mine>WR
+BWXT,BWX Technologies Inc,Direct Equity,27439,BWX Technologies Inc,27954.4651,515.4651000000013,0.02,0.004,WR>mine
+PFE,Pfizer Inc,Direct Equity,22292,Pfizer Inc,22071.631679999995,-220.36832000000504,0.01,0.003,OK
+MMM,3M Co,Direct Equity,19098,3M Co,19273.44258,175.442579999999,0.01,0.003,OK
+ZBH,Zimmer Biomet Holdings Inc,Direct Equity,16724,Zimmer Biomet,16505.77802,-218.22197999999844,0.01,0.002,OK
+KYIV,Kyivstar Group Ltd,Direct Equity,15680,Kyivstar Group LTD,16170.000000000002,490.0000000000018,0.01,0.002,OK
+ABT,Abbott Laboratories,Direct Equity,15344,Abbott Laboratories,14594.167899999999,-749.8321000000014,0.01,0.002,mine>WR
+PYPL,PayPal Holdings Inc,Direct Equity,12808,Paypal HLDGS Inc Com,12162.817178000001,-645.1828219999989,0.01,0.002,mine>WR
+VXRT,Vaxart Inc,Direct Equity,12800,Vaxart Inc Com New,12100.0,-700.0,0.01,0.002,mine>WR
+AMD,Advanced Micro Devices Inc,Direct Equity,12334,Advanced Micro,13837.276199999998,1503.2761999999984,0.01,0.002,WR>mine
+HAE,Haemonetics Corp,Direct Equity,12161,Haemonetics Corp,12150.0,-11.0,0.01,0.002,OK
+AXON,Axon Enterprise Inc,Direct Equity,8956,Axon Enterprise Inc,8409.15,-546.8500000000004,0.01,0.001,mine>WR
+OXY,Occidental Petroleum Corp,Direct Equity,7688,,,,0.00,,not-matched
+CTVA,Corteva Inc,Direct Equity,7151,Corteva Inc Com,7058.233980000001,-92.76601999999912,0.00,0.001,OK
+IVV,iShares Core S&P 500 ETF,Direct Equity,7087,,,,0.00,,not-matched
+KVUE,Kenvue Inc,Direct Equity,6611,Kenvue Inc Com,6370.93002,-240.0699800000002,0.00,0.001,OK
+Q,Qnity Electronics Inc,Direct Equity,6107,Qnity Electronics,7036.21135,929.2113499999996,0.00,0.001,WR>mine
+BAX,Baxter International Inc,Direct Equity,5913,Baxter International,5565.65892,-347.34108000000015,0.00,0.001,OK
+941:HK,China Mobile Ltd (HKD),Direct Equity,4731,,,,0.00,,not-matched
+RTX,RTX Corp,Direct Equity,4000,RTX Corporation Com,3808.6400200000003,-191.35997999999972,0.00,0.001,OK
+DD,DuPont de Nemours Inc,Direct Equity,3917,,,,0.00,,not-matched
+MS,Morgan Stanley,Direct Equity,3902,Morgan Stanley Com,3812.8895999999995,-89.11040000000048,0.00,0.001,OK
+DOW,Dow Inc,Direct Equity,3141,Dow Inc Com,3100.8729599999997,-40.12704000000031,0.00,0.000,OK
+ZETA,Zeta Global Holdings Corp Class A,Direct Equity,2654,Zeta Global Holdings,2523.05472,-130.9452799999999,0.00,0.000,OK
+BROS,Dutch Bros Inc Class A,Direct Equity,2430,Dutch Bros Inc CL A,2417.8427,-12.15729999999985,0.00,0.000,OK
+PG,Procter & Gamble Co,Direct Equity,2271,Procter And Gamble,2199.6,-71.40000000000009,0.00,0.000,OK
+ABBV,AbbVie Inc,Direct Equity,2230,Abbvie Inc Com,2149.50888,-80.49112000000014,0.00,0.000,OK
+UHAL,U-Haul Holding Co,Direct Equity,2170,U Haul Holding,2101.0820799999997,-68.91792000000032,0.00,0.000,OK
+MSTR,Strategy Class A,Direct Equity,2015,Strategy Inc,1738.6000000000001,-276.39999999999986,0.00,0.000,OK
+MICC,Magnum Ice Cream Co NV,Direct Equity,1966,Magnum Ice Cream Co,1828.05,-137.95000000000005,0.00,0.000,OK
+SOLV,Solventum Corp,Direct Equity,1800,Solventum Corp Com,1774.4500000000003,-25.549999999999727,0.00,0.000,OK
+VTRS,Viatris Inc,Direct Equity,1755,Viatris Inc Com,1669.19444,-85.80556000000001,0.00,0.000,OK
+ELF,e.l.f. Beauty Inc,Direct Equity,1680,E L F Beauty Inc Com,1627.1860000000001,-52.81399999999985,0.00,0.000,OK
+MDLZ,Mondelez International Inc Class A,Direct Equity,1571,,,,0.00,,not-matched
+HBAN,Huntington Bancshares Inc,Direct Equity,1383,Huntington,1385.35807,2.358069999999998,0.00,0.000,OK
+GM,General Motors Co,Direct Equity,1258,,,,0.00,,not-matched
+MGM,MGM Resorts International,Direct Equity,1156,MGM Resorts,1173.63988,17.63987999999995,0.00,0.000,OK
+DHI,D.R. Horton Inc,Direct Equity,1151,DR Horton Inc Com,1182.67168,31.671679999999924,0.00,0.000,OK
+MRP,Millrose Properties Inc Class A,Direct Equity,804,Millrose PPTYS Inc,811.35,7.350000000000023,0.00,0.000,OK
+SIRI,Sirius XM Holdings Inc,Direct Equity,788,,,,0.00,,not-matched
+NKE,Nike Inc Class B,Direct Equity,699,Nike Inc Class B Com,657.34775,-41.65224999999998,0.00,0.000,OK
+COST,Costco Wholesale Corp,Direct Equity,548,Costco Wholesale,538.8307199999999,-9.169280000000072,0.00,0.000,OK
+SIVR,abrdn Physical Silver Shares ETF,Direct Equity,528,,,,0.00,,not-matched
+CMG,Chipotle Mexican Grill Inc,Direct Equity,524,Chipotle Mexican,503.744,-20.255999999999972,0.00,0.000,OK
+OXYWS,Occidental Petroleum Warrants 03/08/2027,Direct Equity,485,,,,0.00,,not-matched
+LULU,Lululemon Athletica Inc,Direct Equity,390,Lululemon Athletica,375.549438,-14.45056199999999,0.00,0.000,OK
+GOSS,Gossamer Bio,Direct Equity,346,Gossamer Bio Inc Com,329.2,-16.80000000000001,0.00,0.000,OK
+LEN,Lennar Corp Class A,Direct Equity,87,Lennar Corp Com,88.95167,1.951669999999993,0.00,0.000,OK
+NOW,ServiceNow Inc,Direct Equity,0,Servicenow Inc Com,0.19856000000000001,0.19856000000000001,0.00,0.000,OK
+SLNAF,Selina Hospitality PLC,Direct Equity,0,Selina Hospitality,0.01,0.01,0.00,0.000,OK
+968080101,Wild Craze Inc,Direct Equity,0,Wild Craze Inc Com,,,0.00,,no-val
+SMCI,Super Micro Computer Inc,Direct Equity,0,Super Micro Computer,0.002933,0.002933,0.00,0.000,OK
+SNAP,Snap Inc Class A,Direct Equity,0,Snap Inc CL A,0.00044400000000000006,0.00044400000000000006,0.00,0.000,OK
+NH,NH Aggressive Growth Portfolio (Fidelity managed index),Other / Multi-Asset,560132,NH Aggressive Growth (port (fidelity Indx)),564160.15338,4028.1533800000325,0.36,0.079,OK
+ANGIX,Angel Oak Multi-Strategy Income Instl,Multi-Sector Bond,5753944,Angel Oak Multi (strategy Inc Instl),5485981.8912499985,-267962.1087500015,3.67,0.767,mine>WR
+GIBIX,Guggenheim Total Return Bond Instl,Multi-Sector Bond,2560183,Guggenheim Total (return Bond FD Instl),2478241.2737499992,-81941.72625000076,1.63,0.347,mine>WR
+PFLEX,PIMCO Flexible Credit Income Inst,Multi-Sector Bond,2175312,PIMCO Flexible (credit Inc FD Instl),2175312.08154,0.08154000015929341,1.39,0.304,OK
+RCIRX,Regan Total Return Income Institutional,Multi-Sector Bond,2324255,Regan Total Return (income Fund Instl),2326699.17648,2444.1764799999073,1.48,0.325,OK
+DHEIX,Diamond Hill Short Dur Securitized Bd I,Short Duration,2267390,Diamond Hill Short (durat Sec Bond I),2165101.963199999,-102288.03680000082,1.45,0.303,mine>WR
+UYLD,Angel Oak UltraShort Income ETF,Short Duration,4003966,Angel Oak Ultrashort (income FD Instl),843148.8130000001,-3160817.187,2.56,0.118,mine>WR
+AOUIX,Angel Oak UltraShort Income Instl,Short Duration,843149,Angel Oak Ultrashort (income FD Instl),843148.8130000001,-0.1869999999180436,0.54,0.118,OK
+FROPX,Flat Rock Opportunity USD,Bank Loan / High Yield,2234910,,,,1.43,,not-matched
+GIFIX,Guggenheim Floating Rate Strats Instl,Bank Loan / High Yield,2236195,Guggenheim Floating (rate STRTGS FD Instl),1866195.06066,-369999.93934000004,1.43,0.261,mine>WR
+BCGIX,BrandywineGLOBAL Corporate Credit I,Bank Loan / High Yield,116012,Brandywineglobal (corporate Credit I),115899.45989999997,-112.54010000002745,0.07,0.016,OK
+NEAR,iShares Short Duration Bond Active ETF,Core / Govt Bond ETFs,6004648,iShares Short (duration Bond Active Etf),6020692.1580799995,16044.158079999499,3.83,0.842,OK
+GOVT,iShares US Treasury Bond ETF,Core / Govt Bond ETFs,2800030,iShares TR US Treas (BD Etf),2811136.1037599994,11106.103759999387,1.79,0.393,OK
+JBND,JPMorgan Active Bond ETF,Core / Govt Bond ETFs,2302493,JP Morgan ETF Trust (active Bond Etf),2211564.7565,-90928.24349999987,1.47,0.309,mine>WR
+SPIB,SPDR Port Interm Term Corp Bond ETF,Core / Govt Bond ETFs,1404395,SPDR Portfolio (intermediate Term Corporate Bond Etf),1408605.2700999998,4210.270099999849,0.90,0.197,OK
+SPTL,SPDR Portfolio Long Term Treasury ETF,Core / Govt Bond ETFs,67007,SPDR Portfolio Long (term Treasury Etf),67625.50402000001,618.5040200000076,0.04,0.009,OK
+IEF,iShares 7-10 Year Treasury Bond ETF,Core / Govt Bond ETFs,29055,iShares TR 7-10 YR (TRSY BD),29193.948139999997,138.94813999999678,0.02,0.004,OK
+EDV,Vanguard Extended Duration Treasury ETF,Core / Govt Bond ETFs,20010,Vanguard Extended (duration Treasury Index FD),20233.95772,223.95771999999852,0.01,0.003,OK
+LCPMX,Lind Capital Partners Muni Credit Income,Core / Govt Bond ETFs,524522,Lind Capital (partners Muni CR Inc),524522.0263599999,0.026359999901615083,0.33,0.073,OK
+FDRXX,Fidelity Government Cash Reserves,Money Market & Cash,5968656,Fidelity Government (cash Reserves),6190567.039999999,221911.0399999991,3.81,0.866,WR>mine
+FNSXX,Fidelity Inv MM Money Market Instl,Money Market & Cash,27578339,Fidelity Treasury (money Market Fund),30579.6737937,-27547759.3262063,17.60,0.004,mine>WR
+FRGXX,Fidelity Inv MM Government Instl,Money Market & Cash,15836721,Fidelity Government (cash Reserves),6190567.039999999,-9646153.96,10.11,0.866,mine>WR
+FRSXX,Fidelity Inv MM Treasury Only Instl,Money Market & Cash,301952,Fidelity Treasury (money Market Fund),30579.6737937,-271372.3262063,0.19,0.004,mine>WR
+FRBXX,Fidelity Inv MM Treasury Instl,Money Market & Cash,95591,Fidelity Treasury (money Market Fund),30579.6737937,-65011.3262063,0.06,0.004,mine>WR
+FMPXX,Fidelity Inv MM Money Market I,Money Market & Cash,6009197,Fidelity Treasury (money Market Fund),30579.6737937,-5978617.3262063,3.83,0.004,mine>WR
+FTCXX,Fidelity Inv MM Tax Exempt I,Money Market & Cash,519,Fimm Tax Exempt (portfolio: Class I),519.49,0.4900000000000091,0.00,0.000,OK
+FZFXX,Fidelity Treasury Money Market,Money Market & Cash,37065,Fidelity Treasury (money Market Fund),30579.6737937,-6485.3262063,0.02,0.004,mine>WR
+FCASH,Fidelity FCASH (core cash),Money Market & Cash,313307,Cash,1351720.3082502559,1038413.3082502559,0.20,0.189,WR>mine
+SGOV,iShares 0-3 Month Treasury Bond ETF,Money Market & Cash,1018033,iShares Short (duration Bond Active Etf),6020692.1580799995,5002659.1580799995,0.65,0.842,WR>mine
+ICSH,iShares Ultra Short-Term Bond Active ETF,Money Market & Cash,500100,iShares Ultra Short-Term Bond Active ETF,0.0,-500100.0,0.32,0.000,mine>WR
