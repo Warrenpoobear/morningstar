@@ -1,0 +1,298 @@
+{
+  "feed": "wake-robin-morningstar-benchmarks",
+  "version": "1.0.0",
+  "generated_at": "2026-07-06T08:14:03",
+  "source": "Morningstar Direct (morningstar_data SDK)",
+  "currency": "USD",
+  "frequency": "daily",
+  "as_of": "2026-06-30",
+  "coverage_start": "2016-07-01",
+  "n_benchmarks": 29,
+  "primary_files": {
+    "return_index": "benchmark_return_index_10yr.csv",
+    "daily_returns": "benchmark_daily_ret_pct_10yr.csv"
+  },
+  "accessor": {
+    "module": "morningstar_feed",
+    "env_override": "MORNINGSTAR_FEED_DIR",
+    "key_functions": [
+      "benchmark_names()",
+      "list_benchmarks()",
+      "resolve_name(name)",
+      "secid(name)",
+      "get_series(name, kind)",
+      "load_return_index(names)",
+      "load_daily_returns(names)",
+      "trailing_return(name, window)",
+      "cumulative_return(name, start, end)",
+      "latest_date()",
+      "as_of_freshness()"
+    ]
+  },
+  "files": [
+    {
+      "file": "benchmark_return_index_10yr.csv",
+      "description": "Cumulative daily total-return index per benchmark (base arbitrary)",
+      "columns": [
+        "Benchmark",
+        "Id",
+        "Date",
+        "Daily Return Index"
+      ],
+      "rows": 105908,
+      "bytes": 6114094,
+      "sha256": "a3a491c22c3913abca81fb55e21dbe30572764ad1e4ce285110ec5529ca7979a"
+    },
+    {
+      "file": "benchmark_daily_ret_pct_10yr.csv",
+      "description": "Daily % returns = pct_change of the TR index (NaN first obs; 0 on non-trading days)",
+      "columns": [
+        "Benchmark",
+        "Id",
+        "Date",
+        "daily_ret_pct"
+      ],
+      "rows": 105908,
+      "bytes": 6524393,
+      "sha256": "660741ed3ea8b236d609c169a7072d093d07e90f8b4df14bab4bae1b6a161601"
+    },
+    {
+      "file": "benchmark_daily_return_index.csv",
+      "description": "TR index, 6yr window (SUPERSEDED by _10yr)",
+      "columns": [
+        "Benchmark",
+        "Id",
+        "Date",
+        "Daily Return Index"
+      ],
+      "rows": 105908,
+      "bytes": 6146289,
+      "sha256": "625db6c211ffa2184e1373f4afb068d3c5237b6ed335b3be8efff02825723a7e"
+    },
+    {
+      "file": "benchmark_daily_returns_pct.csv",
+      "description": "Daily % returns, 6yr window (SUPERSEDED by _10yr)",
+      "columns": [
+        "Benchmark",
+        "Id",
+        "Date",
+        "daily_ret_pct"
+      ],
+      "rows": 68817,
+      "bytes": 4279226,
+      "sha256": "5854abe6e3dfac6b359a8b110c92b3cceb503e7fa8f741b9914aa9df3539af09"
+    }
+  ],
+  "benchmarks": [
+    {
+      "benchmark": "Bloomberg Commodity TR USD",
+      "secid": "XIUSA04GUL",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Bloomberg Global Agg Hdg USD",
+      "secid": "FOUSA06K3V",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Bloomberg Global Agg USD",
+      "secid": "XIUSA000CU",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Bloomberg US Agg Bond TR USD",
+      "secid": "FOUSA05Y32",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Bloomberg US Corp HY TR USD",
+      "secid": "XIUSA000C3",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Bloomberg US Leveraged Loan Insur TR USD",
+      "secid": "F00001QI62",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "FTSE Nareit Composite TR",
+      "secid": "FOUSA06QVA",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "FTSE Nareit Eqty Apartments TR",
+      "secid": "FOUSA06QUF",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "KBW Nasdaq Bank TR USD",
+      "secid": "FOUSA06WRY",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "MSCI ACWI Ex USA NR USD",
+      "secid": "XIUSA04G85",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "MSCI ACWI NR USD",
+      "secid": "XIUSA04EXL",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "MSCI EAFE NR USD",
+      "secid": "XIUSA000PK",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "MSCI EM NR USD",
+      "secid": "F00001DR59",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Roundhill Magnificent Seven ETF",
+      "secid": "F00001EQOY",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 1000 Growth TR USD",
+      "secid": "XIUSA000KO",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 1000 TR USD",
+      "secid": "XIUSA000O4",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 1000 Value TR USD",
+      "secid": "XIUSA000KP",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 2000 Growth TR USD",
+      "secid": "XIUSA000KQ",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 2000 TR USD",
+      "secid": "XIUSA000O5",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 2000 Value TR USD",
+      "secid": "XIUSA000KR",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 2500 TR USD",
+      "secid": "XIUSA000KZ",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 2500 Value TR USD",
+      "secid": "XIUSA000L1",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 3000 Growth TR USD",
+      "secid": "XIUSA000KS",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 3000 TR USD",
+      "secid": "XIUSA000O6",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell 3000 Value TR USD",
+      "secid": "XIUSA000KT",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "Russell Magnificent 7 TR USD",
+      "secid": "F00001T2BO",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "S&P 500 TR USD",
+      "secid": "F00000W7S7",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "State Street SPDR Blmbg 1-3Mth T-Bill ETF",
+      "secid": "FOUSA06B85",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    },
+    {
+      "benchmark": "State Street SPDR S&P Biotech ETF",
+      "secid": "FEUSA04AER",
+      "start": "2016-07-01",
+      "end": "2026-06-30",
+      "rows": 3652
+    }
+  ],
+  "notes": [
+    "Return index base level is arbitrary; use pct_change / provided accessors for returns.",
+    "Non-trading days repeat the prior index (daily_ret_pct = 0); load_daily_returns(trading_days_only=True) drops them.",
+    "Newer indices (Russell/Roundhill Mag 7) have shorter history; pre-inception rows are absent.",
+    "Not in the MD API: Bloomberg US Govt/Credit 1-5Yr, Bloomberg HY Muni, Credit Suisse HF, NCREIF, Galene, S&P UBS Leveraged Loan."
+  ],
+  "refresh": "See GOVERNANCE.md / SKILL.md. Requires morningstar_data SDK + MD_AUTH_TOKEN (~24h TTL)."
+}
