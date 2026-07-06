@@ -159,6 +159,18 @@ df[["Benchmark","Id","Date","Daily Return Index"]].to_csv("benchmark_return_inde
 df[["Benchmark","Id","Date","daily_ret_pct"]].to_csv("benchmark_daily_ret_pct_10yr.csv", index=False)
 ```
 
+**After every refresh, regenerate the manifest** so downstream consumers see the new
+coverage/freshness: `python3 build_manifest.py` (rewrites `datasets.json`).
+
+---
+
+## Programmatic access (data feed)
+
+Other projects consume this feed through the `morningstar_feed` accessor module rather than
+parsing CSVs directly — see `README.md`. Do not rename or change the column schema of the
+canonical `*_10yr.csv` files without bumping the manifest `version` and updating
+`morningstar_feed.py`, as external repos depend on that contract.
+
 ---
 
 ## Auth Token Notes
